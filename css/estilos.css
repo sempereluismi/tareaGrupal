@@ -171,8 +171,32 @@ tbody>tr:hover {
     color: white;
 }
 
+
+.reno {
+    width: 200px;
+    position: relative;
+    top: -80px;
+    left: 400px;
+    z-index: 100;
+}
+
+.elfo {
+    z-index: 100;
+}
+
 .carta {
-
+    position: absolute;
+    background-color: #fff;
+    border: #fff 2px solid;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    font-size: 1.125rem;
     max-width: 800px;
+    line-height: 1.5rem;
+    color: #000;
+}
 
+.container {
+    display: flex;
+    justify-content: center;
 }
